@@ -1,19 +1,12 @@
 # Who Owns the Floodplain?
 
-**Organizational Form, Portfolio Scale, and Regulatory Flood Exposure in Douglas County, Nebraska**
+**Replication Data and Code for "Organizational Form, Portfolio Scale, and Regulatory Flood Exposure in Douglas County, Nebraska"**
 
-## Manuscript Status
+Published in *Environment and Planning B: Urban Analytics and City Science*
 
-| Field | Value |
-|-------|-------|
-| Journal | Environment and Planning B: Urban Analytics and City Science |
-| Manuscript ID | EPB-2025-0878 |
-| Status | Major Revisions |
-| Revision Deadline | March 16, 2026 |
+## Overview
 
-## Abstract
-
-This study examines how property ownership structure relates to regulatory flood exposure in Douglas County, Nebraska. Using a fine-tuned BERT transformer model to classify owner organizational form (Individual, LLC, Corporation, Trust, Government/Nonprofit) from assessor records, we analyze 184,333 single-family residential parcels to understand who bears flood risk.
+This repository contains the data and analysis code for our study examining how property ownership structure relates to regulatory flood exposure in Douglas County, Nebraska. Using a fine-tuned BERT transformer model to classify owner organizational form from assessor records, we analyze 184,333 single-family residential parcels.
 
 ## Key Findings
 
@@ -22,18 +15,14 @@ This study examines how property ownership structure relates to regulatory flood
 - Evidence of "liability siloing": single-parcel LLCs more exposed than multi-parcel LLCs
 - Significant concentration of flood-exposed properties among a small number of corporate and governmental owners
 
-## Directory Structure
+## Repository Structure
 
 ```
 who-owns-the-floodplain/
-├── manuscript/      # Main manuscript documents
-├── revision/        # Reviewer responses and revised materials
-├── figures/         # Supplementary figures (LISA maps, forest plots)
-├── supplementary/   # Appendices and supplementary material
-├── data/            # Processed data for replication
-├── code/            # Analysis scripts
-├── docs/            # Documentation and methodology notes
-└── archive/         # Historical drafts
+├── data/       # Processed datasets for replication
+├── code/       # Analysis scripts
+├── figures/    # Output figures
+└── docs/       # Methodology documentation
 ```
 
 ## Methodology
@@ -43,6 +32,14 @@ who-owns-the-floodplain/
 - FEMA Special Flood Hazard Areas (SFHAs) as primary exposure metric
 - Lorenz curves and Gini coefficients for concentration analysis
 
+## Data
+
+Details on data sources and processing steps are provided in `docs/`.
+
 ## Citation
 
-Andrews, J. (2025). Who Owns the Floodplain? Organizational Form, Portfolio Scale, and Regulatory Flood Exposure in Douglas County, Nebraska. *Environment and Planning B: Urban Analytics and City Science* (under review).
+Andrews, J. (2025). Who Owns the Floodplain? Organizational Form, Portfolio Scale, and Regulatory Flood Exposure in Douglas County, Nebraska. *Environment and Planning B: Urban Analytics and City Science*.
+
+## License
+
+See LICENSE file for terms of use.

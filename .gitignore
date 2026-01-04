@@ -26,13 +26,6 @@ venv/
 *.temp
 *.bak
 
-# Large data files (if added later)
-*.parquet
-*.shp
-*.dbf
-*.shx
-*.prj
-
 # Keep empty directories
 !data/.gitkeep
 !code/.gitkeep
