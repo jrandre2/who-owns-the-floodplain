@@ -1,0 +1,38 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Large data files (if added later)
+*.parquet
+*.shp
+*.dbf
+*.shx
+*.prj
+
+# Keep empty directories
+!data/.gitkeep
+!code/.gitkeep
