@@ -1,0 +1,18 @@
+# Who Owns the Floodplain - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Statistical modeling
+statsmodels>=0.14.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional: Spatial analysis (for extended models)
+# geopandas>=0.13.0
+# libpysal>=4.7.0
+# esda>=2.4.0
