@@ -1,5 +1,6 @@
 # OS files
 .DS_Store
+._*
 Thumbs.db
 
 # Editor files
@@ -26,6 +27,11 @@ venv/
 *.temp
 *.bak
 
-# Keep empty directories
+# Generated analysis outputs (rebuilt by running code/)
+data/*.parquet
+data/*.csv
+data/diagnostics/
+
+# Keep empty directory placeholders
 !data/.gitkeep
-!code/.gitkeep
+!docs/.gitkeep
