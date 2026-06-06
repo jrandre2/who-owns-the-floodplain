@@ -93,4 +93,4 @@ Andrews, J. (2025). Who Owns the Floodplain? Organizational Form, Portfolio Scal
 
 ## License
 
-See LICENSE file for terms of use.
+Code in this repository is released under the MIT License. See LICENSE file if present, or contact the author for reuse terms.
